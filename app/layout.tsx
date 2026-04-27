@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Vivek Venkatesh",
     images: [
       {
-        url: "https://vibgreon.onrender.com/images/common/metaImage.webp",
+        url: "/images/common/metaImage.webp",
         width: 1200,
         height: 630,
         alt: "Vivek Venkatesh - Product Designer",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Vivek Venkatesh - Portfolio",
     description: "Product Designer with a background in Usability, AI, and engineering - shipping real products since 2022.",
-    images: ["https://vibgreon.onrender.com/images/common/metaImage.webp"],
+    images: ["/images/common/metaImage.webp"],
   },
 }
 

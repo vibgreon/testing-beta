@@ -210,16 +210,18 @@ export default function About() {
                 }}
               >
                 <div style={{ animation: img.animation }}>
-                  <Image src={img.src} alt="" width={img.size} height={img.size} style={{ width: img.size, height: img.size, objectFit: "contain", display: "block" }} />
+                  <img src={img.src} alt="" width={img.size} height={img.size} style={{ width: img.size, height: img.size, objectFit: "contain", display: "block" }} />
                 </div>
               </div>
             ))}
 
-            <Image
+            <img
               src="/images/HomeImages/vivek-about.png"
               alt="Vivek"
               width={260}
               height={320}
+              loading="lazy"
+              decoding="async"
               className="object-cover"
               style={{ maxWidth: '260px', width: '100%', position: "relative", zIndex: 1 }}
             />
