@@ -44,11 +44,12 @@ export default function NotFound() {
         </div>
       </div>
       <div ref={imgRef} className="absolute inset-0" style={{ zIndex: 2, transformOrigin: 'center center' }}>
-        <Image
+        <img
           src="/images/404-asset.png"
           alt="404"
-          fill
-          className="object-cover"
+          loading="lazy"
+          decoding="async"
+          className="object-cover absolute inset-0 w-full h-full"
         />
       </div>
     </div>

@@ -226,7 +226,9 @@ export default function WorkGallery() {
               >
                 W
               </span>
-              <span style={{ fontFamily: "ImperialSans, sans-serif" }}>orks</span>
+              <span style={{ fontFamily: "ImperialSans, sans-serif" }}>
+                orks
+              </span>
             </h2>
           </div>
         </div>
@@ -422,12 +424,12 @@ export default function WorkGallery() {
                         }`}
                       />
                     ) : (
-                      <Image
+                      <img
                         src={work.image}
                         alt={work.title}
-                        fill
-                        sizes="(max-width: 768px) 100vw, 50vw"
-                        className={`object-cover${
+                        loading="lazy"
+                        decoding="async"
+                        className={`object-cover absolute inset-0 w-full h-full${
                           work.available ? "" : " blur-sm brightness-75"
                         }`}
                       />

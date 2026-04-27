@@ -73,13 +73,13 @@ export default function Loader() {
       className="fixed inset-0 bg-white flex flex-col items-center justify-center"
       style={{ zIndex: 99999 }}
     >
-      <Image
+      {/* <Image
         src="/images/common/sa26.svg"
         alt="SA"
         width={48}
         height={48}
         className="w-10 h-10 object-contain opacity-80 mb-5"
-      />
+      /> */}
       <p
         className="text-sm text-gray-400 tabular-nums"
         style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 300 }}
